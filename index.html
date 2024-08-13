@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Simple Web Page</title>
 </head>
+<style>
+    .footer {
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .link {
+            background-color: grey;
+        }
+</style>
 
 <body>
     <header>
@@ -66,7 +78,20 @@
         </address>
     </section>
     <footer>
-        &copy; Chris Doe 2024
+        <p>
+            &copy; Chris Doe 2024
+        </p>
+        <div class="footer">
+            <button class="link">
+                <a href="#">Facebook.svg</a>
+            </button>
+            <button class="link">
+                <a href="#">Instagram.svg</a>
+            </button>
+            <button class="link">
+                <a href="#">Twitter.svg</a>
+            </button>
+        </div>
     </footer>
 </body>
 
